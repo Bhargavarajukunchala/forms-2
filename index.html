@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Registration Form</legend>
+    <form>
+        <table border="1" >
+            <tr>
+                <th><label for="Fname">First Name:</label></th>
+                <td><input type="text" name="fname" id="Fname" required placeholder="surname"/></td>
+            </tr>
+            <tr>
+                <th><label for="Lname">Last Name:</label></th>
+                <td><input type="text" name="lname" id="Lname" required placeholder="Lastname" /></td>
+            </tr>
+            <tr>
+                <th><label for="Gmail">Gmail</label></th>
+                <td colspan="3"><input type="email" name="gamil" id="Gmail" required placeholder="raju@gmail.com" /></td>
+            </tr>
+            <tr>
+                <th><label for="Pswd">Password:</label></th>
+                <td><input type="password" name="pswd" id="Pswd" maxlength="8"/></td>
+            </tr>
+            <tr>
+                <th><label for="Num">Mobile Number:</label></th>
+                <td><input type="tel" name="num" id="Num" pattern="[0-9]{10}" placeholder="1234567890" required /></td>
+            </tr>
+            <tr>
+                <th><label for="dob">D.O.B</label></th>
+                <td><input type="date" name="dob" id="dob" /></td>
+            </tr>
+            <tr>
+                <th><label for="date1">D.O.B. time-local</label></th>
+                <td><input type="datetime-local" name="dateof" id="date1" /></td>
+            </tr>
+            <tr>
+                <th><label for="Time">Time</label></th>
+                <td><input type="time" name="time1" id="Time" /></td>
+            </tr>
+            <tr>
+                <th><label for="month">Month</label></th>
+                <td><input type="month" name="month1" id="month" /></td>
+            </tr>
+            <tr>
+                <th><label for="num6">Number</label></th>
+                <td><input type="number" name="num4" id="num6" min="1" max="100"></td>
+            </tr>
+            <tr>
+                <th><label for="File1">Upload File</label></th>
+                <td><input type="file" name="upload file" id="File1" multiple></td>
+            </tr>
+            <tr>
+                <th><label for="bar1">Search</label></th>
+                <td><input type="search" name="bar" id="bar1"></td>
+            </tr>
+            <tr>
+                <th><label for="male">Gender</label></th>
+                <td>
+                    <input type="radio" name="gender" id="male" value="Male"/><label>Male</label>
+                    <input type="radio" name="gender" id="female"/><label>Female</label>
+                </td>  
+            </tr>
+            <tr>
+                <th><label for="lang1">select language</label></th>
+                <td>
+                    <input type="checkbox" name="fav lang" id="lang1" value="Telugu"><label>Telugu</label>
+                    <label for="lang2"></label>
+                    <input type="checkbox" name="fav-lang" id="lang2"><label>Hindi</label>
+                    <label for="lang3"></label>
+                    <input type="checkbox" name="fav_lang" id="lang3"><label>English</label>
+                 </td>
+            </tr>
+            <tr>
+                <th><label for="favcolor">Type Color</label></th>
+                <td><input type="color" name="fav color" id="favcolor"></td>
+            </tr>
+            <tr>
+                <th><label for="image1">image</label></th>
+                <td><input type="image" width="100" height="30" src="../images.jpeg" name="favimage" id="iamge1" />
+                </td>
+            </tr>
+            <tr>
+                <th><label for="vol1">select (range) </label></th>
+                <td><input type="range" name="vol" id="vol1" min="0" max="10"></td>
+            </tr>
+            <tr>
+                <th><label for="hmpage">Linkedin url</label></th>
+                <td><input type="url" name="homepage" id="hmpage" ></td>
+            </tr>
+            <tr>
+                <th><label for="weeks">week</label></th>
+                <td><input type="week" name="week" id="weeks"></td>
+            </tr>
+            <tr>
+                <th><label for="lang">select programming lan </label></th>
+                <td><input list="lang">
+                    <datalist id="lang">
+                        <option value="Html"></option>
+                        <option value="javascript"></option>
+                        <option value="python"></option>
+                        <option value="java"></option>
+                    </datalist>
+                
+                </td>
+            </tr>
+            
+
+
+
+
+
+
+
+
+        <tr>
+            <th><input type="submit"></th>
+            <th><input type="reset">
+            </th>
+        </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+        </table>
+    </form>
+    </fieldset>
+</body>
+</html>
